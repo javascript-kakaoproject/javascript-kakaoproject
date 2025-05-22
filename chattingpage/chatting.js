@@ -1,10 +1,10 @@
-import { footerHeaderItemIcon } from './chattingmockdata.js';
+import { footerHeaderItemsData } from './chattingmockdata.js';
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
+    const footerHeaderItemsContainer = document.querySelector('.footer-header-items-container');
 
-    const footerHeaderItems = document.querySelector('.footerHeaderItems');
-    footerHeaderItems.innerHTML = footerHeaderItemIcon
+    footerHeaderItemsContainer.innerHTML = footerHeaderItemsData
     .map(item => 
         ` <div class="footerHeaderItem-icon">
             ${item.icon}
@@ -12,3 +12,4 @@ document.addEventListener('DOMContentLoaded', function() {
     `)
     .join('');
 });
+

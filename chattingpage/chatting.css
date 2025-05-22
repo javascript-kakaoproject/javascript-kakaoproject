@@ -53,7 +53,7 @@
     height: 20px;
     cursor: pointer;
   }
-  .footerHeaderItems {
+  .footer-header-items-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,6 +102,12 @@
     padding: 10px 0;
   }
 .message-container-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.message-container-profile-image2 {
   width: 30px;
   height: 30px;
   border-radius: 20%;

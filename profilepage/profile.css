@@ -43,7 +43,7 @@
     padding: 10px;
     background-color: rgba(0); 
   }
-  .header-title-icon {
+  .header-icons-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,5 +108,6 @@
     height: 20px;
     cursor: pointer;
   }
+  
   
   
