@@ -1,11 +1,11 @@
 // 업데이트한 프로필 데이터
 const updatedProfiles = [
-  { id: 1, name: '하니', image: 'https://cdn.spotvnews.co.kr/news/photo/202412/720452_1139171_731.jpg' },
+  { id: 1, name: '하니', image: 'https://cdn.spotvnews.co.kr/news/photo/202412/720452_1139171_731.jpg'},
   { id: 2, name: '카리나', image: 'https://cdn.smarttoday.co.kr/news/photo/202501/70217_63467_357.jpg' },
   { id: 3, name: '유나', image: 'https://i.namu.wiki/i/z8FH-y2OWJaSSIOEw19_uoMmxAyRkj7Ha18keUi98VzNT9x5EnLXIdjqdJHD_lMhNAr_bCUGDi0Tkg0JcOWkMg.webp' },
   { id: 4, name: 'IU', image: 'https://img.khan.co.kr/news/2023/01/02/news-p.v1.20230102.1f95577a65fc42a79ae7f990b39e7c21_P1.png' },
   { id: 5, name: '윈터', image: 'https://m.sportsworldi.com/content/image/2024/05/26/20240526503382.jpg' },
-  { id: 6, name: '상오', image: 'https://lh6.googleusercontent.com/proxy/2nLOK6272OSb0fnUjFlor476JQbd9CvXT9BogMpN6cAGC3kVTj2oTf3Igqg0Xwmh_t4RwWuJGGWRbg4W-M4zg_p-5quDOpXaaJv7e6_aIoITufPeNEq9Qbnuaw' },
+  { id: 6, name: '상오', image: 'https://lh6.googleusercontent.com/proxy/2nLOK6272OSb0fnUjFlor476JQbd9CvXT9BogMpN6cAGC3kVTj2oTf3Igqg0Xwmh_t4RwWuJGGWRbg4W-M4zg_p-5quDOpXaaJv7e6_aIoITufPeNEq9Qbnuaw'},
   { id: 7, name: '163센치', image: 'https://w7.pngwing.com/pngs/880/279/png-transparent-mrs-potato-head-illustration-toy-story-2-buzz-lightyear-to-the-rescue-mr-potato-head-mrs-potato-head-character-toy-story-food-cartoon-pixar.png' },
   { id: 8, name: '상오갈비뼈', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7MMAXhTe-vAKofm9fWSi1eHMH12BJI05VAA&s' }
 ]; 
@@ -14,7 +14,7 @@ const birthdayFriendProfiles = [
   { id: 1, name: '상오갈비뼈', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7MMAXhTe-vAKofm9fWSi1eHMH12BJI05VAA&s', birthday: '오늘 생일' },
   { id: 2, name: '163센치', image: 'https://w7.pngwing.com/pngs/880/279/png-transparent-mrs-potato-head-illustration-toy-story-2-buzz-lightyear-to-the-rescue-mr-potato-head-mrs-potato-head-character-toy-story-food-cartoon-pixar.png', birthday: '오늘 생일' },
   { id: 3, name: '하니', image: 'https://cdn.spotvnews.co.kr/news/photo/202412/720452_1139171_731.jpg', birthday: '1월 8일' },
-  { id: 4, name: '상오', image: 'https://lh6.googleusercontent.com/proxy/2nLOK6272OSb0fnUjFlor476JQbd9CvXT9BogMpN6cAGC3kVTj2oTf3Igqg0Xwmh_t4RwWuJGGWRbg4W-M4zg_p-5quDOpXaaJv7e6_aIoITufPeNEq9Qbnuaw', birthday: '1월 11일' },
+  { id: 4, name: '상오', image: 'https://lh6.googleusercontent.com/proxy/2nLOK6272OSb0fnUjFlor476JQbd9CvXT9BogMpN6cAGC3kVTj2oTf3Igqg0Xwmh_t4RwWuJGGWRbg4W-M4zg_p-5quDOpXaaJv7e6_aIoITufPeNEq9Qbnuaw', birthday: '1월 11일'},
 ];
 
 const bookmarkProfiles = [
